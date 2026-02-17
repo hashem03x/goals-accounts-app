@@ -8,8 +8,9 @@ import { Button } from '@/components/ui/Button';
 import { LoadingSpinner } from '@/components/ui/LoadingSpinner';
 import { EmptyState } from '@/components/ui/EmptyState';
 import { ConfirmDialog } from '@/components/ui/ConfirmDialog';
-import { useGoals, type Goal } from '@/hooks/useGoals';
+import { useGoals } from '@/hooks/useGoals';
 import { GoalForm } from '@/components/goals/GoalForm';
+import { Goal } from '@/lib/localData';
 
 const TYPE_LABELS: Record<string, string> = {
   'short-term': 'قصير المدى',

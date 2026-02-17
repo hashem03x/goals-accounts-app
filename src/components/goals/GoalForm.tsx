@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { Modal } from '@/components/ui/Modal';
 import { Button } from '@/components/ui/Button';
-import type { Goal } from '@/hooks/useGoals';
+import { Goal } from '@/lib/localData';
 
 interface GoalFormProps {
   isOpen: boolean;
