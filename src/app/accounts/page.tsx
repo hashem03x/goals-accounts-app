@@ -8,8 +8,9 @@ import { Button } from '@/components/ui/Button';
 import { LoadingSpinner } from '@/components/ui/LoadingSpinner';
 import { EmptyState } from '@/components/ui/EmptyState';
 import { ConfirmDialog } from '@/components/ui/ConfirmDialog';
-import { useAccounts, type Account } from '@/hooks/useAccounts';
+import { useAccounts  } from '@/hooks/useAccounts';
 import { AccountForm } from '@/components/accounts/AccountForm';
+import { Account } from '@/lib/localData';
 
 const TYPE_LABELS: Record<string, string> = {
   incoming: 'وارد',
