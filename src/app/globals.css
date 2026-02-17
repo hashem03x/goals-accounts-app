@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Arabic font - Tajawal from Google Fonts (loaded in layout or link) */
+:root {
+  --font-tajawal: 'Tajawal', system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply text-base;
+  }
+}
+
+/* Smooth scroll and focus styles */
+html {
+  scroll-behavior: smooth;
+}
+
+*:focus-visible {
+  @apply outline-2 outline-offset-2 outline-primary-500;
+}
